@@ -1,0 +1,7 @@
+For each extracted process, assign a confidence score between 0 and 1.
+Base the score on how clearly the abstract indicates this is a process/method.
+Return as JSON:
+[
+  {"process": "X", "confidence": 0.87},
+  ...
+]
