@@ -9,17 +9,15 @@ Within the "data" folder:
 - Receive your processed pdf paper in the "archive" folder
 
 ## Workflow
-### Input: 
-PDF / DOI / text file
 
 ### Extraction: 
-Locate abstract > Clean abstract text (remove citations, symbols)
+Locate abstract > Clean abstract text (remove citations, symbols) 
 
 ### Inference: 
-Identify candidate process phrases > Filter non-process terms > Normalize variants (e.g., “X-based method” vs “X method”)
+Identify candidate process phrases > Filter non-process terms > Normalize variants 
 
 ### Output: 
-Structured rows: paper_id, process_name, confidence_score (even rough), abstract_snippet (optional)
+Structured rows: paper_id, process_name, confidence_score (even rough), abstract_snippet (optional) 
 
 ### Storage: 
 CSV / Excel / DB > Archive processed paper
